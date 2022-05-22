@@ -24,7 +24,8 @@ color: white;
 }
 
  .col-md-6 .title-image{
-  margin-left: -5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 .title-matter{
   font-weight: lighter;
@@ -57,4 +58,57 @@ color: white;
   font-size: 20px;
   font-weight: bold;
   color: black;
+}
+
+.models-header{
+  margin: 3%;
+}
+
+.models-data{
+  list-style: none;
+  padding: 3%;
+}
+
+.carousel-inner{
+  align-self: center;
+  background-color: #580000;
+}
+.card{
+  padding-bottom: 80px;
+  margin-top: 2%;
+}
+ .social-media{
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top:3%;
+}
+
+.social-media-icons img{
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin: 20px 15px;
+  border-radius: 20px;
+}
+
+.social-media a{
+  text-decoration: none;
+}
+
+.social-media a :hover{
+  width:35px;
+  height:35px;
+}
+
+@media (max-width: 1028px){
+  .col-md-6{
+    text-align: center;
+  }
+
+  .title-matter{
+    text-align: center;
+  }
+  .title-image{
+    margin-top: 10%;
+  }
 }
