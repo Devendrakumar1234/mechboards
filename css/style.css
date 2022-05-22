@@ -1,0 +1,117 @@
+
+.navbar{
+  margin-bottom: 3%;
+  padding: 0 0 4.5rem;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.navbar-brand{
+  font-size: 25px;
+}
+
+.navbar-brand img{
+  width: 40px;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.col-md-6{
+color: white;
+}
+
+.title1 {
+  background-image: url("blackscreen.jpeg");
+  background-size: cover;
+}
+
+ .col-md-6 .title-image{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.title-matter{
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 1%;
+  margin-right: 6%;
+  margin-bottom: 5%;
+}
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+.row{
+  padding-top: 3%;
+}
+
+.cards{
+  /* border:2px solid; */
+  text-align: center;
+  padding-bottom: 50%;
+  margin: 35px;
+}
+.type-image{
+  margin-top: 3%;
+  width: 80%;
+}
+.type-matter{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.models-header{
+  margin: 3%;
+}
+
+.models-data{
+  list-style: none;
+  padding: 3%;
+}
+
+.carousel-inner{
+  align-self: center;
+  background-color: #580000;
+}
+.card{
+  padding-bottom: 80px;
+  margin-top: 2%;
+}
+ .social-media{
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top:3%;
+}
+
+.social-media-icons img{
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin: 20px 15px;
+  border-radius: 20px;
+}
+
+.social-media a{
+  text-decoration: none;
+}
+
+.social-media a :hover{
+  width:35px;
+  height:35px;
+}
+
+@media (max-width: 1028px){
+  .col-md-6{
+    text-align: center;
+  }
+
+  .title-matter{
+    text-align: center;
+  }
+  .title-image{
+    margin-top: 10%;
+  }
+}
